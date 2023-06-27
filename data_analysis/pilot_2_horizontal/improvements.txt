@@ -1,0 +1,3 @@
+- Add more accepted screen resolutions (1050px);
+- N1000 -> slow generation of stimuli induces errors;
+- Anna -> blurry instruction images (device specs: )
