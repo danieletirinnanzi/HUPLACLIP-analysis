@@ -1,3 +1,7 @@
-- Add more accepted screen resolutions (1050px, 1800px, 1964px) -> change to >1024? Check if resize of canvas works also when zoom is not 100%;
+- Add more accepted vertical resolutions (1050,1152,1200,1344,1392,1400,1800,1824,1964) -> change to >1024? Check if resize of canvas works also when zoom is not 100%;
 - N1000 -> slow generation of stimuli induces errors (Nawal);
-- Anna and Nawal -> blurry instruction and task familiarization images (device specs: Anna (1960x1080), Nawal (1960x1080) ). Possibility of doing these phases already with the canvas, so that it adapts to the screen:
+- Anna and Nawal -> blurry instruction and task familiarization images (device specs: Anna (1960x1080), Nawal (1960x1080) ). Possibility of doing these phases already with the canvas, so that it adapts to the screen;
+- Ben:
+* had the feeling like the task was easier when the side of the graph with the clique was changing;
+* strategy of not looking at the stimulus directly, he was intentionally seeing it blurry so that the regularities were more evident.
+- 
