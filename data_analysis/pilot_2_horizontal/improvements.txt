@@ -1,3 +1,3 @@
-- Add more accepted screen resolutions (1050px);
-- N1000 -> slow generation of stimuli induces errors;
-- Anna -> blurry instruction images (device specs: )
+- Add more accepted screen resolutions (1050px, 1800px, 1964px) -> change to >1024? Check if resize of canvas works also when zoom is not 100%;
+- N1000 -> slow generation of stimuli induces errors (Nawal);
+- Anna and Nawal -> blurry instruction and task familiarization images (device specs: Anna (1960x1080), Nawal (1960x1080) ). Possibility of doing these phases already with the canvas, so that it adapts to the screen:
