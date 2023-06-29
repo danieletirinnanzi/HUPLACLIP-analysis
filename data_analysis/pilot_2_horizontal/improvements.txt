@@ -14,4 +14,5 @@
 
 ----------
 
-- data saving: remove "graphs_couple", outputs an empty variable
+- data saving: remove "graphs_couple" (right now it outputs an empty variable)
+- CSV FORMATTING PROBLEM (issue for scalability of experiment) -> ask Lollo Nesi and Ben if they were using a specific browser -> csv file formatting issues
