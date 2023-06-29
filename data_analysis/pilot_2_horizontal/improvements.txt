@@ -7,3 +7,11 @@
 - Marlen:
 * perceived the N1000 task as way easier than the N300 one
 * conspiracists tend to better find visual associations (literature)
+- add new experiment structure image and uncomment in experiment scripts
+
+
+
+
+----------
+
+- data saving: remove "graphs_couple", outputs an empty variable
