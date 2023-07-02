@@ -18,5 +18,6 @@
 * remove "graphs_couple" (right now it outputs an empty variable)
 * variable "accuracy" has to be "correct"
 * too many quotes in the files -> check how they are saved (use single quotes??)
+* responses to survey are strings and not objects!! Try also to access the graphs names and check that everything is working ok
 - CSV FORMATTING PROBLEM (issue for scalability of experiment) -> ask Lollo Nesi and Ben if they were using a specific browser -> csv file formatting issues
 - Lollo Nesi -> "out of memory" when opening second link, it crashes (the computer has 500MB of free memory) -> do a check of available memory before starting??
