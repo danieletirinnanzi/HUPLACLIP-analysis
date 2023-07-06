@@ -13,6 +13,7 @@
 
 
 ----------
+
 IMPLEMENTATION:
 - data saving:
 * remove "graphs_couple" (right now it outputs an empty variable)
@@ -20,7 +21,13 @@ IMPLEMENTATION:
 * too many quotes in the files -> check how they are saved (use single quotes??)
 * responses to survey are strings and not objects!! Try also to access the graphs names and check that everything is working ok
 - CSV FORMATTING PROBLEM (issue for scalability of experiment) -> ask Lollo Nesi and Ben if they were using a specific browser -> csv file formatting issues
-- Lollo Nesi -> "out of memory" when opening second link, it crashes (the computer has 500MB of free memory) -> do a check of available memory before starting??
+- Lollo Nesi -> "out of memory" when opening second link (only one having it), it crashes (the computer has 500MB of free memory) -> do a check of available memory before starting??
+
+
+
+-----------------
 
 POSTER FEEDBACK:
 - Gaia Tavoni --> how are the statistical and computational limits calculated? What do they mean? Speculation (don't know if it is true) -> I think below the statistical limit the size of the clique you are planting is on average smaller than the size of the one you are planting, and this is what makes the taks impossible.
+- Guys from Physics --> all problems have these phases? I was not able to elaborate or discuss the more theoretical aspects (np/np hard - np complete ecc)
+- Acerbi --> we are talking about the gap in the title but we are not really addressing it
