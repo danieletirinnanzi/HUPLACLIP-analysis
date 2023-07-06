@@ -31,3 +31,4 @@ POSTER FEEDBACK:
 - Gaia Tavoni --> how are the statistical and computational limits calculated? What do they mean? Speculation (don't know if it is true) -> I think below the statistical limit the size of the clique you are planting is on average smaller than the size of the one you are planting, and this is what makes the taks impossible.
 - Guys from Physics --> all problems have these phases? I was not able to elaborate or discuss the more theoretical aspects (np/np hard - np complete ecc)
 - Acerbi --> we are talking about the gap in the title but we are not really addressing it
+- Types and families of DDNs that were tested?
