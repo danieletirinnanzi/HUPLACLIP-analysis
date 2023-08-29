@@ -30,3 +30,6 @@ fig.show()
 
 # Save plot as high resolution png:
 fig.savefig('degree distribution matching/N300/cliqueless graphs/images/N300_cliqueLessGraphs.png', dpi=300)
+
+
+# WITH CLIQUE (blue) - NO CLIQUE CORRECTED (red dashed) - NO CLIQUE UNCORRECTED (red filled) 
