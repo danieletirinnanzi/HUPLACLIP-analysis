@@ -1,0 +1,9 @@
+This data is from the following experiment runs:
+
+* MLP-ViT data:
+    - N100: mlp-vit_exp_2024-12-04_17-14-27
+    - N150-N800: mlp-vit_exp_2024-12-05_12-39-23
+    - N1200: mlp-vit_exp_2024-12-07_15-38-03
+
+* CNN data:
+    - N100: cnn_exp_2024-12-09_14-14-42
