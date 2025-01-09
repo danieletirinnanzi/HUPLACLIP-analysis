@@ -7,3 +7,11 @@ This data is from the following experiment runs:
 
 * CNN data:
     - N100: cnn_exp_2024-12-09_14-14-42
+    - N150:
+    - N200:
+    - N300:
+    - N400:
+    - N480:
+    - N600:
+    - N800:
+    - N1200:

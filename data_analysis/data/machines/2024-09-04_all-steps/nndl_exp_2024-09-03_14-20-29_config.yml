@@ -1,0 +1,141 @@
+elapsed_time: '8:30:38.336411'
+exp_name: nndl_exp
+graph_size: 224
+models:
+- architecture:
+    dropout_prob: 0.2
+    l1: 1000
+    l2: 500
+    l3: 100
+    l4: 50
+  model_name: MLP
+- architecture:
+    c0: 1
+    c1: 5
+    c2: 10
+    c3: 15
+    dropout_prob: 0.2
+    kernel_size_conv: 3
+    kernel_size_pool: 3
+    l1: 100
+    num_conv_layers: 3
+    padding: 1
+    stride: 1
+  model_name: CNN_small_1
+- architecture:
+    c0: 1
+    c1: 8
+    c2: 16
+    c3: 32
+    c4: 64
+    dropout_prob: 0.2
+    kernel_size_conv: 3
+    kernel_size_pool: 2
+    l1: 100
+    num_conv_layers: 4
+    padding: 1
+    stride: 1
+  model_name: CNN_small_2
+- architecture:
+    c0: 1
+    c1: 5
+    c2: 10
+    c3: 15
+    dropout_prob: 0.2
+    kernel_size_conv: 9
+    kernel_size_pool: 3
+    l1: 100
+    num_conv_layers: 3
+    padding: 1
+    stride: 1
+  model_name: CNN_large_1
+- architecture:
+    c0: 1
+    c1: 8
+    c2: 16
+    c3: 32
+    c4: 64
+    dropout_prob: 0.2
+    kernel_size_conv: 9
+    kernel_size_pool: 2
+    l1: 100
+    num_conv_layers: 4
+    padding: 1
+    stride: 1
+  model_name: CNN_large_2
+- architecture:
+    c0: 1
+    c1: 5
+    c2: 10
+    c3: 15
+    dropout_prob: 0.2
+    kernel_size_conv: 7
+    kernel_size_pool: 3
+    l1: 100
+    num_conv_layers: 3
+    padding: 1
+    stride: 1
+  model_name: CNN_medium_1
+- architecture:
+    c0: 1
+    c1: 8
+    c2: 16
+    c3: 32
+    c4: 64
+    dropout_prob: 0.2
+    kernel_size_conv: 7
+    kernel_size_pool: 2
+    l1: 100
+    num_conv_layers: 4
+    padding: 1
+    stride: 1
+  model_name: CNN_medium_2
+- architecture:
+    c0: 1
+    c1: 5
+    c2: 10
+    c3: 15
+    c4: 20
+    dropout_prob: 0.2
+    kernel_size: 3
+    l1: 100
+    padding: 1
+    stride: 1
+  model_name: CNN_rudy
+- model_name: VGG16scratch
+- model_name: VGG16pretrained
+- model_name: ResNet50scratch
+- model_name: ResNet50pretrained
+- model_name: GoogLeNetscratch
+- model_name: GoogLeNetpretrained
+- architecture:
+    hidden_dim: 768
+    mlp_dim: 3072
+    num_classes: 1
+    num_heads: 12
+    num_layers: 12
+    patch_size: 16
+  model_name: ViTscratch
+- architecture:
+    hidden_dim: 768
+    patch_size: 16
+  model_name: ViTpretrained
+p_correction_type: p_reduce
+testing_parameters:
+  clique_testing_levels: 100
+  max_clique_size_proportion_test: 0.7
+  num_test: 36
+  test_iterations: 16
+training_parameters:
+  clique_training_levels: 10
+  learning_rate: 0.0001
+  loss_function: BCELoss
+  max_clique_size_proportion: 0.5
+  min_delta: 0.01
+  num_train: 36
+  num_training_steps: 1000
+  num_val: 36
+  optimizer: AdamW
+  patience: 200
+  save_step: 5
+  val_exit_loss: 0.1

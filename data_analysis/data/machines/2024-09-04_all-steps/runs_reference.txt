@@ -1,0 +1,4 @@
+This data is from the NNDL experiment: "2024-09-04_all-steps"
+
+Path to folder:
+"..\OneDrive - Università Campus Bio-Medico di Roma\Project-backup\NNDL - 2024\results\data\2024-09-04_all-steps"
