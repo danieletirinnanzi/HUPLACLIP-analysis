@@ -7,7 +7,7 @@ This data is from the following experiment runs:
 
 * CNN data:
     - N100: cnn_exp_2024-12-09_14-14-42
-    - N150:
+    - N150: cnn_exp_2025-01-09_16-01-51
     - N200:
     - N300:
     - N400:
