@@ -8,10 +8,10 @@ This data is from the following experiment runs:
 * CNN data:
     - N100: cnn_exp_2024-12-09_14-14-42
     - N150: cnn_exp_2025-01-09_16-01-51
-    - N200:
-    - N300:
+    - N200: cnn_exp_2025-01-10_20-25-49
+    - N300: cnn_exp_2025-01-13_12-18-11
     - N400:
     - N480:
     - N600:
     - N800:
-    - N1200:
+    - N1200: cnn_exp_2025-01-12_00-03-44
