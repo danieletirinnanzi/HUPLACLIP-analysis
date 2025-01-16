@@ -13,5 +13,5 @@ This data is from the following experiment runs:
     - N400:
     - N480:
     - N600:
-    - N800:
+    - N800: cnn_exp_2025-01-14_15-32-41
     - N1200: cnn_exp_2025-01-12_00-03-44
