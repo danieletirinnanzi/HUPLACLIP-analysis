@@ -19,3 +19,4 @@ This data is from the following experiment runs:
 * MLP variations (only at N400):
     - MLP_7layers: mlp_exp_2025-01-16_16-43-39
     - MLP_10layers: mlp_exp_2025-01-28_12-06-13
+    - MLP_20layers: mlp_exp_2025-01-31_18-46-06
