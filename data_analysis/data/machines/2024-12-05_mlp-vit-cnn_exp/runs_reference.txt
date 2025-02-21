@@ -16,8 +16,9 @@ This data is from the following experiment runs:
     - N800: cnn_exp_2025-01-14_15-32-41 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
     - N1200: cnn_exp_2025-01-12_00-03-44 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
 
-* MLP variations (only at N400 -> no improvement in performance):
+* MLP variations (only at N400):
     - MLP_7layers: mlp_exp_2025-01-16_16-43-39
     - MLP_10layers: mlp_exp_2025-01-28_12-06-13
     - MLP_20layers: mlp_exp_2025-01-31_18-46-06
     - MLP_lr1e-5: mlp_exp_2025-02-08_15-12-45
+    - MLP_lr1e-5_10000steps: mlp_exp_2025-02-20_16-18-07
