@@ -22,3 +22,4 @@ This data is from the following experiment runs:
     - MLP_20layers: mlp_exp_2025-01-31_18-46-06
     - MLP_lr1e-5: mlp_exp_2025-02-08_15-12-45
     - MLP_lr1e-5_10000steps: mlp_exp_2025-02-20_16-18-07
+    - MLP_li-earlystop-scatter: mlp_exp_2025-02-26_19-12-21
