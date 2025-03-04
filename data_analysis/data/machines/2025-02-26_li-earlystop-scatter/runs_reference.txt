@@ -1,12 +1,13 @@
 This data is from the following experiment runs:
 
+OLD TRAINING REGIME:
 * MLP-ViT data:
     - N100: mlp-vit_exp_2024-12-04_17-14-27
     - N150-N800: mlp-vit_exp_2024-12-05_12-39-23
     - N1200: mlp-vit_exp_2024-12-07_15-38-03
 
 * CNN data:
-    - N100: cnn_exp_2024-12-09_14-14-42
+    - N100: cnn_exp_2024-12-09_14-14-42 (okay)
     - N150: cnn_exp_2025-01-09_16-01-51 (no generalization between 0.5xN and 0.7xN)
     - N200: cnn_exp_2025-01-10_20-25-49 (flat training curves)
     - N300: cnn_exp_2025-01-13_12-18-11 (flat training curves)
@@ -17,5 +18,11 @@ This data is from the following experiment runs:
     - N1200: cnn_exp_2025-01-12_00-03-44 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
 
 * MLP variations (only at N400):
+    - MLP_lr1e-5: mlp_exp_2025-02-08_15-12-45
     - MLP_lr1e-5_10000steps: mlp_exp_2025-02-20_16-18-07
-    - MLP_li-earlystop-scatter: mlp_exp_2025-02-26_19-12-21
+
+
+
+NEW TRAINING REGIME:
+    - patience = 20 (only at N400): mlp_exp_2025-02-26_19-12-21 (MLP_li-earlystop-scatter)
+    - patience = 40: (MLP_li-earlystop-scatter-pt40)
