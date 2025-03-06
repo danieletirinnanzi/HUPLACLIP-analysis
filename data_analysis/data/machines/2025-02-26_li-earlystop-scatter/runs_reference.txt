@@ -1,7 +1,8 @@
-This data is from the following experiment runs:
+This data was produced to refine the new training pipeline with the leaky integrator early stopper and the learning rate scheduling.
+The new pipeline was tested using the MLP at N=400, and then tested on all N values.
 
-OLD TRAINING REGIME:
-* MLP-ViT data:
+OLD TRAINING PIPELINE:
+* MLP-ViT data (MLP-old-pipeline, ViTscratch, ViTpretrained)
     - N100: mlp-vit_exp_2024-12-04_17-14-27
     - N150-N800: mlp-vit_exp_2024-12-05_12-39-23
     - N1200: mlp-vit_exp_2024-12-07_15-38-03
@@ -17,12 +18,12 @@ OLD TRAINING REGIME:
     - N800: cnn_exp_2025-01-14_15-32-41 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
     - N1200: cnn_exp_2025-01-12_00-03-44 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
 
-* MLP variations (only at N400):
-    - MLP_lr1e-5: mlp_exp_2025-02-08_15-12-45
-    - MLP_lr1e-5_10000steps: mlp_exp_2025-02-20_16-18-07
+* MLP variation (MLP_old-pipeline-lr1e-5_10000steps):
+    - N400: mlp_exp_2025-02-20_16-18-07
 
 
-
-NEW TRAINING REGIME:
-    - patience = 20 (only at N400): mlp_exp_2025-02-26_19-12-21 (MLP_li-earlystop-scatter)
-    - patience = 40: (MLP_li-earlystop-scatter-pt40)
+NEW TRAINING PIPELINE (only for MLP):
+* MLP data (MLP-new-pipeline):
+    - N100-N480: mlp_exp_2025-03-03_12-36-32
+    - N800: mlp_exp_2025-03-04_13-43-04
+    - N600 + N1200: mlp_exp_2025-03-05_17-31-07
