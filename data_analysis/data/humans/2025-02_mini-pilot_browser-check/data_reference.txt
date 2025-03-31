@@ -1,2 +1,2 @@
 * Mini-pilot data and browser-check data:
-Data generated in Februrary 2025 in Pilot mode from Pavlovia, while testing the human experiments on all 9 N values and before integrating Pavlovia with Prolific.
+Data generated in Februrary 2025 in Pilot mode from Pavlovia, while testing the human experiments on all N values and before integrating Pavlovia with Prolific.
