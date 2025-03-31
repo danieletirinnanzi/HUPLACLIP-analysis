@@ -1,0 +1,31 @@
+This data is used to compare the old and the new training pipeline. 
+The new training pipeline features the leaky integrator early stopper and the learning rate scheduling.
+
+OLD TRAINING PIPELINE:
+* MLP-ViT data (MLP-old-pipeline, ViTscratch-old-pipeline, ViTpretrained-old-pipeline)
+    - N100: mlp-vit_exp_2024-12-04_17-14-27
+    - N150-N800: mlp-vit_exp_2024-12-05_12-39-23
+    - N1200: mlp-vit_exp_2024-12-07_15-38-03
+
+* CNN data (CNN-old-pipeline):
+    - N100: cnn_exp_2024-12-09_14-14-42 (okay)
+    - N150: cnn_exp_2025-01-09_16-01-51 (no generalization between 0.5xN and 0.7xN)
+    - N200: cnn_exp_2025-01-10_20-25-49 (flat training curves)
+    - N300: cnn_exp_2025-01-13_12-18-11 (flat training curves)
+    - N400: cnn_exp_2025-01-16_18-10-54 (flat training curves)
+    - N480: cnn_exp_2025-01-21_18-59-44 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
+    - N600: cnn_exp_2025-01-28_13-13-57 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
+    - N800: cnn_exp_2025-01-14_15-32-41 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
+    - N1200: cnn_exp_2025-01-12_00-03-44 (did not complete training in time (one clique value missing) -> tested checkpointed model -> okay)
+
+
+NEW TRAINING PIPELINE:
+* MLP data (MLP-new-pipeline):
+    - N100-N480: mlp_exp_2025-03-03_12-36-32
+    - N600: mlp_exp_2025-03-05_17-31-07
+    - N800: mlp_exp_2025-03-04_13-43-04
+    - N1200: mlp_exp_2025-03-06_18-30-37
+
+* ViT data (ViTpretrained-new-pipeline, ViTscratch-new-pipeline):
+    - N100-N200: vit_exp_2025-03-25_10-19-04
+    - N300-...: vit_exp_2025-03-31_11-02-54

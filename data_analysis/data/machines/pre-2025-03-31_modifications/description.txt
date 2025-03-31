@@ -1,0 +1,5 @@
+This is data is not compatible with the new machine analysis pipeline. On 31/03/2025 the following modifications were done:
+- variance test is a line in the plot, and is absent from the models
+- the comparison of the number of parameters is added
+
+To re-run these analysis, use the pipeline version before the 31/03/2025 commit
