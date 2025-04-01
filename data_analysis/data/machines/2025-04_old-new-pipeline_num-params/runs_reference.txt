@@ -28,4 +28,4 @@ NEW TRAINING PIPELINE:
 
 * ViT data (ViTpretrained-new-pipeline, ViTscratch-new-pipeline):
     - N100-N200: vit_exp_2025-03-25_10-19-04
-    - N300-...: vit_exp_2025-03-31_11-02-54
+    - N300-N400: vit_exp_2025-03-31_11-02-54
