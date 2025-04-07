@@ -27,5 +27,11 @@ NEW TRAINING PIPELINE:
     - N1200: mlp_exp_2025-03-06_18-30-37
 
 * ViT data (ViTpretrained-new-pipeline, ViTscratch-new-pipeline):
-    - N100-N200: vit_exp_2025-03-25_10-19-04
-    - N300-N400: vit_exp_2025-03-31_11-02-54
+    - N100-N400: vit_exp_2025-04-01_20-01-40
+    - N480: vit_exp_2025-04-06_00-23-29
+    - N600-N800(scratch): vit_exp_2025-04-03_00-38-02
+    - N800(pretrained): vit_exp_2025-04-06_00-12-56
+    - N1200(scratch): vit_exp_2025-04-03_23-42-13
+    - N1200(pretrained): vit_exp_2025-04-04_19-41-33
+
+* CNN data (CNN-new-pipeline):
